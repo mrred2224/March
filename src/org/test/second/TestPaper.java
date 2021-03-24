@@ -15,6 +15,10 @@ String url =driver.getCurrentUrl();
 System.out.println(url);
 String title = driver.getTitle();
 System.out.println(title);
+String title2 = driver.getTitle();
+System.out.println(title2);
+driver.close();
+driver.quit();
 
 
 
