@@ -15,7 +15,10 @@ String url =driver.getCurrentUrl();
 System.out.println(url);
 String title = driver.getTitle();
 System.out.println(title);
-
+WebElement findElement = driver.findElement(By.id("email"));
+System.out.println(findElement);
+WebElement findElement2 = driver.findElement(By.id("pass"));
+System.out.println(findElement2);
 
 
 }
